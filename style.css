@@ -1,0 +1,929 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+
+  body{
+    background-color:#f3f3f3;
+  }
+  .nav-bar{
+      display: flex;
+      justify-content:space-between
+  }
+
+  /* .navbar-nav button{
+    text-decoration: none;
+  } */
+
+  /* .collapse navbar-collapse justify-content-end button{
+    text-decoration: none;
+  } */
+
+  .brand img{
+      width:70px ;
+  }
+  .brand span{
+      font-size: 30px;
+      color:rgb(255, 153, 0);
+  }
+  .brand{
+      display: flex;
+      align-items: center;
+      padding: 30px;
+  }
+
+  .ul-menu a{
+    text-decoration:none;
+  }
+
+  
+  .menu{
+      padding-right: 30px;
+      display: flex;
+      align-items: center;
+    }
+
+    .menu a{
+      text-decoration: none;
+    }
+
+
+  .menulist{
+      display: inline;
+      padding: 20px 20px;
+     }
+  button{
+      padding: 10px;
+      background-color:gold;
+      border: none;
+      color:black;
+      text-decoration:none;
+  
+  }
+  button:active{
+    color:rgb(229, 255, 0);
+  }
+
+  button:hover{
+    background-color: rgba(7, 214, 241, 0.897);
+  }
+  
+  .res-adv{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background-color: black;
+          /* background-image:url(images/header-bg.jpg); */
+          background-image:linear-gradient(rgba(0, 0, 0, 0.856), rgba(0, 0, 41, 0.849)),url(images/bg-hero.jpg);
+          background-size:cover;
+          padding: 20px 30px;
+          
+
+  }
+
+  .caption{
+    flex:1;
+    /* padding-left:80px; */
+  }
+
+  .caption h1{
+    color: #ffffff;
+  }
+  .caption p{
+    color: #ffffff;
+  }
+
+  .adv-image{
+    flex:1;
+    text-align: center;
+}
+
+.logo2{
+  width: 600px;
+}
+
+
+  /* .adv-image.logo2{
+     width:10px;
+  } */
+  .caption h1{
+      font-size: 50px;
+  }
+
+  .caption h1, .caption p{
+    padding-bottom:20px;
+  }
+
+  .services{
+    display:flex;
+    /* justify-content: ; */
+    /* padding-top:100px; */
+    width:80%;
+    margin:0 auto;
+    column-gap:20px;
+    padding-top: 50px;
+  }
+
+  .service{
+    background-color:#ffffff;
+    padding-top:30px;
+    padding-left:20px;
+    padding-bottom:30px;
+  }
+
+  /* .services i{ */
+    /* color:gold; }*/
+
+    .fa-2xl{
+        color: gold;
+        size:100%;
+    }
+
+    .about{
+      display:flex;
+      justify-content:space-between;
+      width:80%;
+      margin:0 auto;
+      padding-top:50px;
+
+    }
+
+    .about-image{
+      flex:1;
+      /* text-align:center; */
+    }
+
+    .about-desc{
+      flex:1;
+    }
+
+    .about-img1{
+      width:270px;
+      padding-right:10px;
+    }
+
+    .about-img2{
+      width:170px;
+      padding-right:px;
+
+    }
+
+    .img1-bg1{
+      padding-right:10px;
+    }
+
+    .img1-sm1{
+      position: relative;
+      /* top: 46px; */
+    }
+
+    .img1-sm2{
+      padding-right:10px;
+      position:relative;
+      bottom:100px;
+
+    }
+    /* .about-image-sect2{
+        float: right;
+    } */
+
+    .about-image-sect1{
+      padding-bottom:15px;
+    }
+
+    /* .about-desc{
+    } */
+
+    .experience{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      border-left-width:5px;
+      border-left-style:solid;
+      border-left-color:gold;
+    }
+
+    .experience-parent{
+      display:flex;
+      justify-content:space-between;
+      padding-bottom:35px;
+
+      }
+
+      .experience h1{
+        padding-left:15px;
+        font-size:60px;
+        color:gold;
+      }
+
+      .experience p{
+        padding-left:20px;
+        font-size:18px;
+        font-weight:600;
+      }
+
+      .experience span{
+        font-weight:300;
+        color:grey;
+      }
+
+      .food-menu{
+        text-align:center;
+        padding-top:30px;    
+      }
+
+      .food-items{
+        display:flex;
+        justify-content:space-evenly;
+        padding-top:15px;
+        align-items: center;
+      }
+      
+      .food-item-desc{
+      display:flex;
+      align-items:center;
+      }
+
+      .food-item-desc p{
+        padding-left:10px;
+      }
+
+      .food-item-desc a{
+        text-decoration:none;
+      }
+
+      .menu-column{
+        width:80%;
+        margin: 0 auto;
+        padding-top: 50px;
+        display:flex;
+        column-gap:30px;
+      }
+      
+      .menu-column1{
+        display:flex;
+        align-items:center;
+        padding-bottom:15px;
+      }
+
+      .menu-border{
+        border:grey 1px solid;
+        margin:10px 0px;
+      }
+
+      .menu-column-txt1{
+        padding-left:20px;
+      }
+
+      .menu-column-txt1 span{
+        float:right;
+        color:gold;
+      }
+
+      
+      .video-form{
+        display:flex;
+        padding-top: 100px;
+        width: 100%;
+      }
+
+      .video-form-img{
+        flex: 1;
+      }
+
+      .contact-form{
+        padding-left: 20px;
+        background-color: rgb(0, 64, 255);
+        flex:1;
+       }
+
+       .contact-form p{
+        padding-top: 40px;
+        color: gold;
+        font-family: "Pacifico", cursive;
+
+        
+        }
+
+       .contact-form h1{
+        text-align: left;
+       }
+
+       
+        
+      .static-form [type=text]{
+        padding:10px 10px;
+        margin: 10px;
+        width: 45%;
+      }
+
+      .static-form [type=email]{
+        padding:10px 10px;
+        margin: 10px;
+        width: 45%;
+      }
+
+      .static-form [type=number]{
+        padding:10px 10px;
+        margin: 10px;
+        width: 45%;
+      }
+
+      .static-form [type=submit]{
+        text-decoration: none;
+      }
+
+
+
+      
+
+      .members{
+        margin: 0 auto;
+        width: 80%;
+        padding-top: 60px;
+        
+      }
+
+    .members-P{
+      background-color: gold;
+      padding: 10px 15px;
+    }
+      
+    .members p, .members h1{
+      text-align: center;
+    }
+
+    .members-image{
+      width: 220px;
+      height: 220px;
+      border-radius: 100%;
+    }
+
+   .members-desc{
+    text-align: center;
+   }
+
+   .members-desc button{
+    background-color: rgb(0, 64, 255);
+    color: #ffffff;
+   }
+
+  .leader{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;  
+    width: 80%;
+    margin: 0 auto; 
+   } 
+
+   .minor{
+    padding-top: 20px;
+   }
+
+   .minor p{
+    text-align: center;
+    padding-top: 100px;
+   }
+
+   .tes-desc{
+    text-align: center;
+    padding-bottom: 35px;
+   }
+
+   .tes-desc p{
+    padding-top: 100px; 
+   }
+
+   .tes-img{
+     width: 75px;
+     height: 75px;
+     border-radius: 50px;
+    
+     /* padding-left: 30; */
+   }
+
+.hapeople{
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+
+.boss{
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 40px;
+  /* bo */
+}
+
+.lady1{
+  padding: 35px 20px;
+  background-color: #ffffff;
+  border: 1px #999 solid;
+
+}
+
+.lady1 h1{
+  text-align: left;
+  color: rgba(185, 160, 15, 0.904);
+  font-size: 60px;
+  line-height: 2px;
+}
+
+.boss-desc{
+  display: flex;
+  align-items: center;
+}
+
+.boss-desc div{
+  padding-left: 15px;
+}
+
+.specione{
+  background-color: gold;
+  color: #ffffff;
+  border: none;
+
+}
+
+.tes-name p{
+  color: grey;
+}
+
+.footer-items{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+ 
+}
+
+.footer-main{
+  padding-top: 40px;
+  align-items: center;
+  margin-top: 40px;
+  background-color:rgb(8, 32, 101);
+  color: aliceblue;
+}
+
+.foot-desc{
+  flex: 1;
+}
+
+.foot-desc h2{
+  padding-bottom: 20px;
+}
+
+.foot-desc li{
+  font-size: 18px;
+  list-style-type: none;
+}
+
+.foot-desc p{
+  font-size: 18px;
+}
+
+.foot-desc a{
+  color: aliceblue;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+
+ .newsletter [type=email]{
+    padding: 20px;
+    width: 71%;
+ }
+
+ .newsletter{
+  display: table;
+
+ }
+
+ .newsletter button{
+    padding: 15px;
+    position: relative;
+    right: 80px;
+   
+ }
+
+hr{
+  margin-top: 30px;
+  opacity: 0.1;
+}
+
+.food-items-2{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px 0px;
+}
+
+.copyright a{
+  color: gold;
+}
+
+.quick-links{
+  display: flex;
+  column-gap: 20px;
+}
+.quick-links li{
+  display: inline;
+  padding-left: 10px;
+  border-right: 1px solid gold;
+  padding-right: 20px;
+}
+
+.quick-links p{
+  background-color: gold;
+  padding: 10px;
+}
+
+.quick-links a{
+  text-decoration: none;
+}
+
+.faqs-link{
+  border-right: none !important;
+}
+
+.reservation-border{
+  border-top: 2px solid gold;
+  width: 50px;
+  position: relative;
+  left: 95px;
+  top: 58px;
+}
+
+.menu-style{
+  border-top: 2px solid gold;
+  width: 50px;
+  position: relative;
+  left: 580px;
+  top: 10px;
+  right: 550px;
+  bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* END  OF WEB. */
+
+@media(max-width: 768px){
+  .container-fluid.brand{
+    padding: 0px 40px;
+  }
+
+  .res-adv{
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+
+  .caption{
+    padding:30px 20px;
+  }
+
+.services{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.about{
+  flex-direction: column;
+}
+
+
+
+.about-desc{
+  padding-top: 30px;
+}
+
+.menu-column{
+  flex-direction: column;
+}
+
+.video-form-img img{
+  width: 400px;
+  height: 419px;
+  object-fit: cover;
+}
+
+.video-form-img{
+  flex: 0;
+}
+
+.contact-form h1{
+  font-size: 26px;
+  padding-bottom: 10px;
+}
+
+.contact-form p{
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+.reservation-border{
+  top: 34px;
+}
+
+.static-form [type=text] {
+  margin: 0px;
+  /* width: 30%; */
+}
+
+.static-form [type=email]{
+  margin: 0px;
+  /* width: 30%; */
+}
+.static-form [type=number] {
+  margin: 0px;
+  /* width: 30%; */
+}
+
+.static-form textarea {
+  width: 320px;
+  margin-bottom: 10px;
+}
+
+.contact-form{
+  padding-bottom: 20px;
+}
+
+.leader{
+  width: 100%;
+  flex-direction: column;
+  }
+
+  #PAGES{
+    text-align: center;
+  }
+
+  .members-P{
+    padding:25px 0px;
+  }
+
+  .about{
+    text-align: center;
+  }
+
+}
+
+
+/* 600 starts */
+
+@media(max-width:600px){
+  .logo2{
+    width: 350px;
+  }
+
+  .experience-parent{
+    flex-direction: column;
+    gap: 27px;
+  }
+
+  .about{
+    width: 100%;
+    padding: 15px;
+  }
+
+  .about-img1{
+    width: 200px;
+  }
+
+  .img1-sm1 {
+    position: relative;
+    top: 30px;
+    width: 150px;
+}
+
+.menu-column{
+  flex-direction: column;
+}
+
+.video-form{
+  flex-direction: column;
+}
+
+.contact-form {
+  padding-bottom: 40px;
+  width: 400px;
+}
+
+.static-form textarea {
+  width: 345px;
+  margin-bottom: 10px;
+}
+
+#PAGES{
+  width: 400px;
+  text-align: center;
+  }
+
+  .hapeople{
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+  }
+
+  .lady1 p{
+    font-size: 18px;
+  }
+
+  .boss{
+    width: 400px;
+    text-align: center;
+  }
+
+  .about-img1{
+    width: 150px;
+  }
+  
+  .about-img2{
+    width: 120px;
+  }
+  .about-image-sect2{
+    float:left
+  }
+
+.about-image{
+  text-align: center;
+}
+
+.img1-bg2{
+  position: relative;
+  left: 62px;
+}
+
+.img1-sm2{
+  position: relative;
+  left: 40px;
+  top: 20px;
+  top: -40px;
+}
+
+.img1-sm1{
+  top: 0px;
+}
+
+.about{
+  text-align: center;
+}
+
+.menu-style {
+  position: relative;
+  left: 60px !important;
+
+}
+.services {
+  width: 100%;
+}
+
+.footer-items{
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+.food-items-2{
+  flex-direction: column;
+  text-align: center;
+}
+
+.newsletter{
+  display: block;
+  padding-top: 20px;
+}
+.newsletter button {
+  padding: 21px;
+  position: relative;
+  right: 5px;
+}
+
+.copyright p{
+  padding-bottom: 15px;
+}
+
+
+
+
+}
+
+
+/* 320 starts*/
+
+@media(max-width:320px){
+  .logo2{
+    width: 300px;
+  }
+
+  .menu-column{
+    flex-direction: column;
+  }
+
+  .contact-form {
+    padding-bottom: 40px;
+    width: 400px;
+  }
+
+  .static-form textarea {
+    width: 345px;
+    margin-bottom: 10px
+}
+
+
+#PAGES{
+width: 400px;
+text-align: center;
+}
+
+.hapeople{
+  flex-direction: column;
+  width: 100%;
+  gap: 30px;
+}
+
+.lady1 p{
+  font-size: 18px;
+}
+
+.boss{
+  width: 400px;
+  text-align: center;
+  padding: 0px 10px;
+}
+
+.boss-desc{
+  flex-direction: column;
+}
+
+.about-img1{
+  width: 150px;
+}
+
+.about-img2{
+  width: 120px;
+}
+
+.about-image-sect2{
+  float:left;
+  
+}
+
+.about-image{
+  text-align: center;
+}
+
+.img1-bg2{
+  position: relative;
+  left: 40px;
+}
+
+.img1-sm2{
+  position: relative;
+  left: 40px;
+  top: -33px;
+}
+
+.about{
+  text-align: center;
+}
+
+.menu-style {
+    position: relative;
+    left: 60px !important;
+}
+
+.services {
+  width: 100%;
+}
+
+.newsletter [type=email] {
+  padding: 20px;
+  width: auto;
+}
+
+
+}
+
+
+
+
+/* END OF MEDIA */
